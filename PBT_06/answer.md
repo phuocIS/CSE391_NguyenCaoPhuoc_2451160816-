@@ -322,4 +322,4 @@ _Bootstrap_
 
 # PHẦN D — VIDEO THỰC HÀNH OBS
 
-- Link video PBT_06: https://youtu.be/B10ahOiEiek
+

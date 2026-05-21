@@ -1,0 +1,160 @@
+:root {
+  /* Primary: Teal (thay indigo mặc định của Bootstrap) */
+  --bs-primary: #14b8a6;
+  --bs-primary-rgb: 20, 184, 166;
+
+  /* Secondary: Slate */
+  --bs-secondary: #64748b;
+  --bs-secondary-rgb: 100, 116, 139;
+}
+
+/* Button primary */
+.btn-primary {
+  background-color: #14b8a6;
+  border-color: #14b8a6;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0d9488;
+  border-color: #0d9488;
+}
+
+/* Button outline primary */
+.btn-outline-primary {
+  color: #14b8a6;
+  border-color: #14b8a6;
+}
+
+.btn-outline-primary:hover {
+  background-color: #14b8a6;
+  border-color: #14b8a6;
+  color: white;
+}
+
+/* Text primary */
+.text-primary {
+  color: #14b8a6 !important;
+}
+
+/* Background primary */
+.bg-primary {
+  background-color: #14b8a6 !important;
+}
+
+/* Border primary */
+.border-primary {
+  border-color: #14b8a6 !important;
+}
+
+/* Progress bar */
+.progress-bar.bg-primary {
+  background-color: #14b8a6 !important;
+}
+
+/* Custom spacing cho sections */
+.py-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Border radius */
+.card {
+  border-radius: 16px !important;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.badge {
+  border-radius: 50px;
+  padding: 0.45rem 0.85rem;
+}
+
+.progress {
+  border-radius: 50px;
+}
+
+/* Custom shadows */
+.card {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08) !important;
+}
+
+.card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12) !important;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
+
+/* Input focus ring teal */
+.form-control:focus {
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.15);
+}
+
+/* Google Fonts - Inter */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Color palette documented */
+:root {
+  /* Teal palette */
+  --color-teal-500: #14b8a6;
+  --color-teal-600: #0d9488;
+  --color-teal-100: #ccfbf1;
+
+  /* Slate palette */
+  --color-slate-900: #0f172a;
+  --color-slate-700: #334155;
+  --color-slate-500: #64748b;
+  --color-slate-200: #e2e8f0;
+  --color-slate-50: #f8fafc;
+}
+
+/* Navbar brand color */
+.navbar-brand {
+  color: #14b8a6 !important;
+}
+
+/* Section headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0f172a;
+}
+
+/* Blog header gradient dùng teal */
+.blog-header-teal {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+}
+
+/* Footer */
+footer {
+  background-color: #0f172a !important;
+  color: #f8fafc;
+}
+
+/* Navbar dark bg */
+.navbar.bg-dark {
+  background-color: #0f172a !important;
+}
+
+/* Smooth transitions toàn trang */
+* {
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}

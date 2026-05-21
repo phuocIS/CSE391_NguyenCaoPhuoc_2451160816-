@@ -304,4 +304,4 @@ Quan điểm "dùng `<div>` cho mọi thứ rồi thêm class là được" nghe
 
 # PHẦN D — VIDEO THỰC HÀNH OBS
 
-- Link video PBT_01: https://www.youtube.com/watch?v=ZQZOHgTcCn0
+

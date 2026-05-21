@@ -198,4 +198,4 @@ Cách 2 — `<figure>` + `<figcaption>`
 
 # PHẦN D — VIDEO THỰC HÀNH OBS
 
-- Link video PBT_02: https://www.youtube.com/watch?v=oYYclgORZxw
+
